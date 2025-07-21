@@ -2,6 +2,12 @@
   font-size: 48px;
 }
 
+ul li {
+  font-size: 16px;
+  color: #a1a2a5;
+  list-style: inside;
+}
+
 .tearms-small-text {
   color: #a1a2a5;
   font-size: 16px;
@@ -67,6 +73,7 @@ color: #A1A2A5;
     font-size: 24px;
     margin-top: 64px;
     margin-bottom: 24px;
+    list-style-type:inherit
 }
 
 .text-terms-list {
@@ -74,16 +81,5 @@ font-size: 16px;
   color: #a1a2a5;
 }
 
-.list-terams-dot {
-  position: relative;
-  top: -10px;
-  border-radius: 50%;
-  background-color: #a1a2a5;
-  width: 2px;
-  height: 2px;
-  margin-left: 12px;
-}
 
-.list-terams-dot-left {
-    margin-left: 22px;
-}
+
